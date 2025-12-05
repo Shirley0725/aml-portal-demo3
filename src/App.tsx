@@ -510,10 +510,10 @@ WHERE Total_Cash_Deposit >= ${sqlParams.depositThreshold}
                      <button className="text-xs flex items-center gap-1 text-blue-600 hover:text-blue-800"><Play size={12}/> Run Test</button>
                   </div>
                   <div className="bg-slate-900 rounded text-slate-300 font-mono text-xs p-4 h-32 overflow-auto">
-                    > Running transformation on sample data...<br/>
-                    > Input: AMT=1000, CURRENCY='USD'<br/>
-                    > <span className="text-green-400">Output: 32000.00</span><br/>
-                    > Status: OK
+                    &gt; Running transformation on sample data...<br/>
+                    &gt; Input: AMT=1000, CURRENCY='USD'<br/>
+                    &gt; <span className="text-green-400">Output: 32000.00</span><br/>
+                    &gt; Status: OK
                   </div>
                 </div>
               </div>
